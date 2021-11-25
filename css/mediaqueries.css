@@ -1,0 +1,182 @@
+@charset "utf-8";
+@media screen and (max-width:640px){
+	header{
+		height: 100px;
+		width: 100%;
+		background-image:url("../img/KNIGHT-thumb-movil.jpg");
+		background-size: contain;
+	}
+	.LOGO{
+		margin: 0 auto;
+		position: absolute;
+		left: 40%;
+	}
+	.titulos{
+		left: 0;
+		margin: 20% 0 0;
+		width:auto;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		position: inherit;
+	}
+	.titulos img{
+		width:  30%;
+	}
+	.nav ul{
+		display: none;
+	}
+	.nav{
+		width: 90%;
+		justify-content: space-between;
+	}
+	.rayas, .rayas2, .rayas3{
+		visibility: visible;
+	}
+	.rayas{
+		position: absolute;
+		margin-left: 85%;
+		display: block;
+		top:5%;
+	}
+	.rayas img{
+		width: 25px;
+	}
+	.rayas3{
+		display: block;
+		position: absolute;
+		margin-left: 85%;
+		
+	}
+	.rayas3 img{
+		width: 25px;
+	}
+	.Galerias{
+		display: none;
+	}
+	.Footer{
+		height: 50px;
+		width: auto;
+	}
+	.home{
+		margin: 20px auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	section{
+		margin: 0px;
+	}
+	.Descripcion{
+		left: 0;
+		margin: 10% auto;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.texto{
+		width: 80%;
+	}
+	.descripcion2{
+		margin: 0;
+		width: 100%;
+	}
+	.Acercade{	
+		border: 3px solid #F70A0E;
+		margin: 0;
+		width: auto;
+	}
+	.descripcion3{
+		border: 3px solid #F70A0E;
+		width: 100%;
+	}
+	.descripcion3 p{
+		border: 3px solid #F70A0E;
+		width: 100%;
+	}
+	.Acercade img{
+		display: none;
+	}
+	.descripcion4{
+		display: none;
+	}
+	.homeknight{
+		display: none;
+	}
+	.peces{
+		margin: auto auto 50px;
+		width: 80%;
+		display: flex;
+		justify-content: center;
+	}
+	.peces img{
+		padding: 0;
+		width: 100%;
+		height: auto;
+	}
+	
+	.knight{
+		margin: auto auto 50px;
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		
+	}
+	.knight img{
+		padding: 0;
+		width: 90%;
+	}
+	.caja4{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+	.caja4 img{
+		width: 100%;
+		height: auto;
+	}
+	.caja2{
+		width: 80%;
+	}
+	.caja3, .alfabeto2{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+/*	.hombres{
+		display: flex;
+		flex-wrap: wrap;
+	}*/
+	.caja3>div, .alfabeto2>div{
+		width: 40%;
+		padding: 2px;
+	}
+	.caja3 a img, .caja2 img, .alfabeto2 a img{
+		width: 100%;
+	}
+	.carteles, .cartelsuelto{
+		width: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.carteles div, .cartelsuelto{
+		width: 50%;
+	}
+	.carteles img, .cartelsuelto img{
+		width: 100%;
+	}
+	.tipografias div{
+		margin: 0;
+		display: inline-flex;
+		padding: 0;
+	}
+	.cuadrocontact p{
+		padding: 5px;
+	}
+
+}
+

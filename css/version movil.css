@@ -1,0 +1,19 @@
+@charset "utf-8";
+header{
+	background: url("../img/KNIGHT-thumb-movil.jpg");
+}
+.LOGO{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	flex-wrap: wrap;
+	font-size: 12pt;
+}
+.Galerias{
+	display: none;
+}
+.Footer{
+	height: 
+}
