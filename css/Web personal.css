@@ -31,7 +31,7 @@ li:hover{
 	filter: opacity(50%);
 }
 .rayas, .rayas2{
-	visibility: hidden;
+	display:  none;
 }
 .rayas3{
 
@@ -244,7 +244,7 @@ section{
 	justify-content: center;
 }
 .retrato img{
-	width: 
+	width: 50%;
 }
 .acercafoto{
 	display: flex;
@@ -371,6 +371,30 @@ section{
 	font-size: 20px;
 	display: flex;
 	align-items: center;
+}
+.referencias{
+	font-family: 'Source Sans Pro', light;
+}
+.referencias div{
+	margin: 100px auto;
+	width:  60%;
+}
+.referencias p{
+	font-size: 10pt;
+	display: flex;
+	justify-content: flex-end;
+}
+.p1{
+	font-family: 'Caveat', cursive;
+	font-size: 18pt;
+}
+.p2{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 18pt;
+}
+.p3{
+	font-family: 'Handlee', cursive;
+	font-size: 18pt;
 }
 .Footer a{
 	color: white;
